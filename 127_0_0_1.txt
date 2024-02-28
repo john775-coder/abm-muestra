@@ -1,0 +1,59 @@
+===Base de datos clientesdb
+
+== Estructura de tabla para la tabla usuarios
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id**//|int|No|
+|nombres|varchar(50)|Sí|NULL
+|apellidos|varchar(50)|Sí|NULL
+|sexo|varchar(20)|Sí|NULL
+== Volcado de datos para la tabla usuarios
+
+|1|Jonathan|Fischer|Masculino
+===Base de datos colegio
+
+== Estructura de tabla para la tabla estudiantes
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id**//|int|No|
+|dni|varchar(8)|No|
+|sexo|varchar(1)|No|
+|nombres|varchar(50)|No|
+|apellidos|varchar(50)|No|
+== Volcado de datos para la tabla estudiantes
+
+|3|858585|M|Alma Franchesca|Fischer
+|5|55555555|M|Jonathan|lalala
+|7|55555555|F|lari lari|hoola
+===Base de datos empleados
+
+== Estructura de tabla para la tabla empleados
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|name|varchar(255)|No|
+|email|varchar(255)|No|
+|age|int|No|
+== Volcado de datos para la tabla empleados
+
+|Tatiana|garay.tatiana@gmail.com|26
+===Base de datos sistema
+
+== Estructura de tabla para la tabla empleados
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**id**//|int|No|
+|nombre|varchar(255)|No|
+|correo|varchar(255)|No|
+|foto|varchar(5000)|No|
+== Volcado de datos para la tabla empleados
+
+|1|Jonathan|jonathan-fischer91@hotmail.com|foto.jpg
+|2|Tatiana|garay.tatiana@gmail.com|foto.jpg
